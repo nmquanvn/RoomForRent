@@ -1,0 +1,12 @@
+.no-resize textarea{
+	resize: none;
+} 
+
+#layout-basic{
+	height: 100%;
+	position: static;
+}
+
+.border-bottom{
+	border-bottom: 1px ridge rgba(0, 0, 0, 0.3);
+}

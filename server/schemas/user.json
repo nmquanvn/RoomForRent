@@ -1,0 +1,25 @@
+{
+  "required": ["phone", "password", "name", "address", "images"],
+  "additionalProperties": true,
+  "properties": {
+    "phone": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "enum": ["ADMIN", "USER"]
+    },
+    "images": {
+      "type": "string"
+    }
+  }
+}
